@@ -1,12 +1,16 @@
+/*Changing font style for webpage*/
 #main-doc, #navbar{
   font-family: "Lucida Console"
 }
 
+/*Changing font size for all headers, making headers bold*/
 #intro_header, #about_header,#case_header, #motherboard_header, #cpu_header, #ram_header, #gpu_header, #hdd_header, #ssd_header, #psu_header, #peripherals_header{
   font-size: 25px;
+  font-weight: bold;
 }
 
-#intro_para, #about_para{
+/*Adding an indent to all paragraphs under headers*/
+#intro_para, #about_para, #case_para{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -14,6 +18,15 @@
     margin-inline-end: 0px;
 }
 
+/*Indenting lists under paragraphs (block display removes bullet point)*/
+#case_list{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+}
+
+/*Moving navigation bar to the left side of the webpage, adding a border on the right*/
 #navbar{
     position: fixed;
     min-width: 290px;
@@ -22,9 +35,10 @@
     width: 300px;
     height: 100%;
     border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
+    border-color: black;
 }
 
+/*Moving the text of the page to the right of the navigation bar*/
 #main-doc {
     position: absolute;
     margin-left: 310px;
@@ -32,6 +46,7 @@
     margin-bottom: 110px;
 }
 
+/*Changing the color of the webpage*/
 html{
   background-color: #8FBC8F;
 }

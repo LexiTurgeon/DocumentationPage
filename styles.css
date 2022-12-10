@@ -1,1 +1,3 @@
-
+#intro_header, #about_header,#case_header, #motherboard_header, #cpu_header, #ram_header, #gpu_header, #hdd_header, #ssd_header, #psu_header, #peripherals_header{
+  font-size: 25px;
+}

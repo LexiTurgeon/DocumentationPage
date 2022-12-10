@@ -10,7 +10,7 @@
 }
 
 /*Adding an indent to all paragraphs under headers*/
-#intro_para, #about_para, #case_para{
+#intro_para, #about_para, #case_para, #motherboard_para{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -19,7 +19,7 @@
 }
 
 /*Indenting lists under paragraphs (block display removes bullet point)*/
-#case_list{
+#case_list, #motherboard_list{
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 50px;

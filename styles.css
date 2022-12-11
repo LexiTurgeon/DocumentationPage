@@ -4,13 +4,13 @@
 }
 
 /*Changing font size for all headers, making headers bold*/
-#intro_header, #about_header,#case_header, #motherboard_header, #cpu_header, #ram_header, #gpu_header, #hdd_header, #ssd_header, #psu_header, #peripherals_header{
+#intro_header, #about_header,#case_header, #motherboard_header, #cpu_header, #ram_header, #gpu_header, #hdd_header, #ssd_header, #psu_header, #peripherals_header, #computer_components{
   font-size: 25px;
   font-weight: bold;
 }
 
 /*Adding an indent to all paragraphs under headers*/
-#intro_para, #about_para, #case_para, #motherboard_para, #cpu_para, #ram_para{
+#intro_para, #about_para, #case_para, #motherboard_para, #cpu_para, #ram_para, #gpu_para, #hdd_para, #ssd_para, #psu_para, #peripherals_para{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -19,7 +19,7 @@
 }
 
 /*Indenting lists under paragraphs (block display removes bullet point)*/
-#case_list, #motherboard_list{
+#case_list, #motherboard_list, #peripherals_list{
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 100px;
@@ -49,4 +49,9 @@
 /*Changing the color of the webpage*/
 html{
   background-color: #8FBC8F;
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
 }

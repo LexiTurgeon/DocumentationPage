@@ -10,7 +10,7 @@
 }
 
 /*Adding an indent to all paragraphs under headers*/
-#intro_para, #about_para, #case_para, #motherboard_para{
+#intro_para, #about_para, #case_para, #motherboard_para, #cpu_para, #ram_para{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -22,7 +22,7 @@
 #case_list, #motherboard_list{
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 50px;
+    margin-inline-start: 100px;
     margin-inline-end: 0px;
 }
 
